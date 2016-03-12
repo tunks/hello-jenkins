@@ -1,7 +1,7 @@
 #!/bin/sh
 
 ssh app@dev.etunkara.info <<EOF
-  mkdir ~/hello-jenkins
+  #mkdir ~/hello-jenkins
   cd ~/hello-jenkins
   git pull
   npm install --production
