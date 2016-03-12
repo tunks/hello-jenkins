@@ -5,6 +5,6 @@ ssh app@dev.etunkara.info <<EOF
   cd ~/hello-jenkins
   git pull
   npm install --production
-  forever restartall
+  forever restart app.js
   exit
 EOF
